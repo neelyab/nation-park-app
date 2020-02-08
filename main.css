@@ -1,0 +1,17 @@
+label {
+   padding: 10px 0;
+}
+
+form, .js-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.js-results li {
+    text-align: left;
+    list-style:none;
+}
