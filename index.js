@@ -54,7 +54,7 @@ function displayResults(responseJson) {
  for (let i =0; i<responseJson.data.length; i++) {
      $('.js-results').append(`<li><h2>${responseJson.data[i].name}</h2></li>`);
      $('.js-results').append(`<li>${responseJson.data[i].description}</li>`);
-     $('.js-results').append(`<li><a href="${responseJson.data[i].url}">${responseJson.data[i].url}</a></li>`);
+     $('.js-results').append(`<li><a href="${responseJson.data[i].url}" target="_blank">${responseJson.data[i].url}</a></li>`);
      };
 
         }
